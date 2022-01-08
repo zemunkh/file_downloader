@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "497127843911",
+    "firebase_url": "https://mesamis-demo.firebaseio.com",
+    "project_id": "mesamis-demo",
+    "storage_bucket": "mesamis-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497127843911:android:ff7030c327c0ac07262962",
+        "android_client_info": {
+          "package_name": "com.example.file_loader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497127843911-jq0o1gi4bcvou6lhd2hvjd9544dol3dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNY75akVoRJLlMN1tkZdQpL7AeBbnynVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497127843911-jq0o1gi4bcvou6lhd2hvjd9544dol3dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497127843911:android:e0c7dd41b16096cc262962",
+        "android_client_info": {
+          "package_name": "com.mesamisapp.mclock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497127843911-jq0o1gi4bcvou6lhd2hvjd9544dol3dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNY75akVoRJLlMN1tkZdQpL7AeBbnynVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497127843911-jq0o1gi4bcvou6lhd2hvjd9544dol3dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

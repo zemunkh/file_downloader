@@ -1,0 +1,67 @@
+name: file_loader
+description: A project that downloades files and loads locally.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0-116.0.dev <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  path_provider: ^2.0.1
+  provider: ^6.0.0
+  audioplayer: ^0.8.1
+  video_player:
+  cloud_firestore: ^2.4.0 
+  sqflite: ^2.0.0+3
+  disk_space: ^0.2.1
+  firebase_core: ^1.4.0
+  permission_handler: ^8.3.0
+  downloads_path_provider_28: ^0.1.2
+  dio: ^4.0.4
+  step_progress_indicator: ^1.0.1
+  async: ^2.8.2
+  # fluttertoast: ^8.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  assets:
+  - assets/images/video_icon.png
+  - assets/images/music.png
+
+  uses-material-design: true
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat-BoldItalic.ttf
+          style: italic
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/Avenir.otf
+          weight: 700
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Medium.ttf
